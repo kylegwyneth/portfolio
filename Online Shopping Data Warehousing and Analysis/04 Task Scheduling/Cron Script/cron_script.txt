@@ -1,0 +1,78 @@
+# Business Department
+1 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_business_department/data_pipeline_01_remove_unnamed/data_pipeline_01_remove_unnamed.py
+
+2 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_business_department/data_pipeline_02_merging_product/data_pipeline_02_merging_product.py
+
+3 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_business_department/data_pipeline_03_removing_duplicates/data_pipeline_03_removing_duplicates.py
+
+4 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_business_department/data_pipeline_04_type_changing/data_pipeline_04_type_changing.py
+
+5 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_business_department/data_pipeline_05_structuring_columns/data_pipeline_05_structuring_columns.py
+
+# Customer Management Department
+1 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_01_fix_job_title/data_pipeline_01_fix_job_title.py
+
+2 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_02_remove_unnamed/data_pipeline_02_remove_unnamed.py
+
+3 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_03_remove_duplicates/data_pipeline_03_remove_duplicates.py
+
+4 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_04_convert_objects_to_date/data_pipeline_04_convert_objects_to_date.py
+
+5 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_05_info_uppercase/data_pipeline_05_info_uppercase.py
+
+6 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_06_fix_column_name/data_pipeline_06_fix_column_name.py
+
+7 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_customer_management_department/data_pipeline_07_fix_column_order/data_pipeline_07_fix_column_order.py
+
+# Enterprise Department
+1 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_merchant_data_01_convert_to_date/data_pipeline_enterprise_department_merchant_data_01_convert_to_date.py
+
+2 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_merchant_data_02_remove_duplicates/data_pipeline_enterprise_department_merchant_data_02_remove_duplicates.py
+
+3 * * * * /Users/marcoo_sg/.pyenv/shims/ /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_merchant_data_03_contact_number_to_int/data_pipeline_enterprise_department_merchant_data_03_contact_number_to_int.py
+
+4 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_merchant_data_04_uppercase_data/data_pipeline_enterprise_department_merchant_data_04_uppercase_data.py
+
+5 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_order_with_merchant_01_uppercase_columns/data_pipeline_enterprise_department_order_with_merchant_01_uppercase_columns.py
+
+6 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_staff_data_01_remove_duplicates/data_pipeline_enterprise_department_staff_data_01_remove_duplicates.py
+
+7 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_staff_data_02_contact_number_to_int/data_pipeline_enterprise_department_staff_data_02_contact_number_to_int.py
+
+8 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_enterprise_department/data_pipeline_enterprise_department_staff_data_03_uppercase_data/data_pipeline_enterprise_department_staff_data_03_uppercase_data.py
+
+# Marketing Department
+1 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_01_campaign/data_pipeline_marketing_department_01_campaign_data_separate.py
+
+2 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_01_campaign/data_pipeline_marketing_department_01_transactional_campaign_rename.py
+
+3 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_02_campaign/data_pipeline_marketing_department_02_campaign_data_uppercase.py
+
+4 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_02_campaign/data_pipeline_marketing_department_02_transactional_campaign_organize_column.py
+
+5 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_02_campaign/data_pipeline_marketing_department_02_campaign_remove_symbols.py
+
+6 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_marketing_department/data_pipeline_marketing_department_03_campaign/data_pipeline_marketing_department_03_transactional_campaign_column_uppercase.py
+
+# Operations Department
+1 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_01_concat_data/data_pipeline_operations_department_01_concat_data.py
+
+2 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_02_merged_data/data_pipeline_operations_department_02_merged_data.py
+
+3 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_03_standardized_quantity/data_pipeline_operations_department_03_standardized_quantity.py
+
+4 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_04_uppercased/data_pipeline_operations_department_04_uppercased.py
+
+5 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_05_converted_dtype/data_pipeline_operations_department_05_converted_dtype.py
+
+6 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_06_corrected_product/data_pipeline_operations_department_06_corrected_product.py
+
+7 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_07_droped_duplicates/data_pipeline_operations_department_07_droped_duplicates.py
+
+8 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_08_droped_products/data_pipeline_operations_department_08_droped_products.py
+
+9 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_operations_department/data_pipeline_operations_department_09_corrected_users/data_pipeline_operations_department_09_corrected_users.py
+
+# Load to Database
+10 * * * * /Users/marcoo_sg/.pyenv/shims/python /Users/marcoo_sg/Desktop/sem/CSELEC1C/ShopZada_ETL/data_pipeline/data_pipeline_load_to_database/data_pipeline_load_to_database/data_pipeline_load_to_database.py
+

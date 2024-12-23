@@ -1,0 +1,5 @@
+USE studentInformationFact;
+
+SELECT HS_CODE, COUNT(*) AS TOTAL_STUDENTS_OF_INTERNATIONAL_SCHOOL
+FROM UniversityFactTable 
+WHERE HS_CODE = "IS"; 

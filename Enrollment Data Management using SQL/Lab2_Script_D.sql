@@ -1,0 +1,5 @@
+USE studentInformationFact;
+
+SELECT COUNT(DISTINCT COURSE_CODE) AS TAYLOR_SUBJECTS
+FROM UniversityFactTable
+WHERE STUD_NO = 4;

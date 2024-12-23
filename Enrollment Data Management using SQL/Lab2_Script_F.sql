@@ -1,0 +1,5 @@
+USE studentInformationFact;
+
+SELECT DISTINCT COURSE_SEM, COURSE_SY 
+FROM CourseDimension
+ORDER BY COURSE_SEM ASC; 

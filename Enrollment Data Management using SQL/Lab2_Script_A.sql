@@ -1,0 +1,6 @@
+USE studentinformationfact;
+
+SELECT AVG(P.PROG_TF) AS AVERAGE_TUITION_FEE
+FROM ProgramDimension P
+WHERE P.PROG_CODE IN (SELECT DISTINCT PROG_CODE FROM UniversityFactTable);
+

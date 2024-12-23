@@ -1,0 +1,8 @@
+use studentinformationfact;
+
+SELECT DISTINCT s.STUD_NO, s.STUD_LN, s.STUD_FN, s.STUD_MN, (STUD_FAM_INCOME - (PROG_TF+ PROG_MF + PROG_LF)) AS REMAINING_BALANCE
+FROM UniversityFactTable uf
+JOIN StudentDimension s ON uf.STUD_NO = s.STUD_NO
+JOIN ProgramDimension p ON uf.PROG_CODE = p.PROG_CODE
+ORDER BY REMAINING_BALANCE
+LIMIT 1;
